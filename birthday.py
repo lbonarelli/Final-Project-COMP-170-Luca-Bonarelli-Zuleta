@@ -35,7 +35,7 @@ class Birthday:
         """Returns number of days until this birthday from today."""
         today = datetime.today()
         today_day = self.day_in_year(today.month, today.day)
-        birthday_day = self.day_in_year(self._month, self._day)
+        birthday_day = self.day_in_year(self.__month, self.__day)
         if birthday_day >= today_day:
             return birthday_day - today_day
         else:

@@ -1,9 +1,9 @@
-from Birthday import Birthday
+from birthday import Birthday
 
 
 class Person:
 
-    def _init_(self, first_name, last_name):
+    def __init__(self, first_name, last_name):
         """A person is defined by a first and last name, a birthday in the
         form (month, day), and a city they live in. Additional fields may
         be added here later. A new object requires only a first and last
